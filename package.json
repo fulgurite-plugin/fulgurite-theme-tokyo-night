@@ -1,0 +1,13 @@
+{
+  "name": "fulgurite.theme.tokyo-night",
+  "displayName": "Tokyo Night",
+  "version": "0.1.0",
+  "description": "Tokyo Night's night style, deep blue from the window to the text",
+  "repository": "https://github.com/fulgurite-plugin/fulgurite-theme-tokyo-night",
+  "license": "MIT",
+  "theme": true,
+  "private": true,
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  }
+}

@@ -1,0 +1,20 @@
+// Tokyo Night (night) — https://github.com/folke/tokyonight.nvim (bg_dark1 · bg_dark · bg · bg_highlight)
+{
+  "name": "Tokyo Night",
+  "appearance": "dark",
+  "interface": {
+    "window": "#0c0e14",
+    "sidebar": "#16161e",
+    "noteList": "#16161e",
+    "paper": "#1a1b26"
+  },
+  "text": {
+    "text": "#c0caf5",
+    "heading": "#7aa2f7",
+    "link": "#7dcfff",
+    "tag": "#bb9af7",
+    "quote": "#a9b1d6",
+    "muted": "#565f89",
+    "code": "#292e42"
+  }
+}

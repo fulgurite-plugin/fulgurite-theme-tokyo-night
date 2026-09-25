@@ -16,5 +16,15 @@
     "quote": "#a9b1d6",
     "muted": "#565f89",
     "code": "#292e42"
+  },
+  // The small parts on the panes: bg_highlight · fg_gutter · fg_dark · green · orange · blue · dark5
+  "controls": {
+    "fill": "#292e42",
+    "fillHover": "#3b4261",
+    "label": "#a9b1d6",
+    "insert": "#9ece6a",
+    "visual": "#ff9e64",
+    "command": "#7aa2f7",
+    "normal": "#737aa2"
   }
 }

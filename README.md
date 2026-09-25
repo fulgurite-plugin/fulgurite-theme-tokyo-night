@@ -16,6 +16,9 @@ A theme is a repository like this one: `package.json` says `"theme": true`, and 
 - `name`, and `appearance`: `light` or `dark`
 - `interface` (`window` `sidebar` `noteList` `paper`): a whole theme. Leave it out for a text theme
 - `text` (`text` `heading` `link` `tag` `quote` `muted` `code`): the editor's colors
+- `controls` (`fill` `fillHover` `label` `insert` `visual` `command` `normal`), for a whole theme: the small parts on
+  its panes (icon buttons, the workspace chip, the Vim mode badge). Optional: any left out is made from the colors
+  above, the same way on every platform
 
 `npm version patch` releases it: the version goes up, and the tag `v<version>` is made and pushed. To list a theme in the
 app, open a pull request adding its repository to `themes.json` in
